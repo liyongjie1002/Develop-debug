@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Develop-debug'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'debug模式的依赖'
 
  
