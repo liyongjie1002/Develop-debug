@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FBAllocationTracker/FBAllocationTracker.framework
+${BUILT_PRODUCTS_DIR}/FBMemoryProfiler/FBMemoryProfiler.framework
+${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework
+${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework
+${BUILT_PRODUCTS_DIR}/YYKit-used/YYKit_used.framework

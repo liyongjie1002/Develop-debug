@@ -1,0 +1,6 @@
+framework module YYKit_used {
+  umbrella header "YYKit-used-umbrella.h"
+
+  export *
+  module * { export * }
+}

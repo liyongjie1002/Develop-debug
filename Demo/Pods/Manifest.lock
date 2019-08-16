@@ -1,0 +1,32 @@
+PODS:
+  - FBAllocationTracker (0.1.5)
+  - FBMemoryProfiler (0.1.3):
+    - FBAllocationTracker (~> 0.1)
+    - FBRetainCycleDetector (~> 0.1)
+  - FBRetainCycleDetector (0.1.4)
+  - OCMock (3.4.3)
+  - YYKit-used (1.0.4)
+
+DEPENDENCIES:
+  - FBMemoryProfiler
+  - OCMock
+  - YYKit-used
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBAllocationTracker
+    - FBMemoryProfiler
+    - FBRetainCycleDetector
+    - OCMock
+    - YYKit-used
+
+SPEC CHECKSUMS:
+  FBAllocationTracker: dfdca3f71aceca6a85e95e3c6ec76a9785eba0f1
+  FBMemoryProfiler: 623fc5f8a61f7d02ec75c87e3b97c90f621d8b02
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  OCMock: 43565190abc78977ad44a61c0d20d7f0784d35ab
+  YYKit-used: bb5779d0a206da10ac4ab34f52523c195b6ab067
+
+PODFILE CHECKSUM: f43196576ab28a0805bf09458fa85b47d0205541
+
+COCOAPODS: 1.7.4
