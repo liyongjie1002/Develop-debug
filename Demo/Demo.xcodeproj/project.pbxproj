@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0402E04B2310007000379E80 /* BLStopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0402E0472310007000379E80 /* BLStopwatch.m */; };
+		0402E04C2310007000379E80 /* BLStopwatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0402E0482310007000379E80 /* BLStopwatchManager.m */; };
 		822C8976D534EA33CDEE6D6E /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29DD9D5921D113B1BAF5460 /* Pods_Demo.framework */; };
 		B75DE8C9230692C900007683 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B75DE8C8230692C900007683 /* AppDelegate.m */; };
 		B75DE8CC230692C900007683 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75DE8CB230692C900007683 /* ViewController.m */; };
@@ -21,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0402E0472310007000379E80 /* BLStopwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLStopwatch.m; sourceTree = "<group>"; };
+		0402E0482310007000379E80 /* BLStopwatchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLStopwatchManager.m; sourceTree = "<group>"; };
+		0402E0492310007000379E80 /* BLStopwatchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLStopwatchManager.h; sourceTree = "<group>"; };
+		0402E04A2310007000379E80 /* BLStopwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLStopwatch.h; sourceTree = "<group>"; };
 		8D7DFE9158866ACE383868C6 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		A29DD9D5921D113B1BAF5460 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75DE8C4230692C900007683 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +61,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0402E0462310007000379E80 /* BLStopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				0402E0472310007000379E80 /* BLStopwatch.m */,
+				0402E0482310007000379E80 /* BLStopwatchManager.m */,
+				0402E0492310007000379E80 /* BLStopwatchManager.h */,
+				0402E04A2310007000379E80 /* BLStopwatch.h */,
+			);
+			path = BLStopwatch;
+			sourceTree = "<group>";
+		};
 		10D7F1EDB852C8C9DF8ED483 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +128,7 @@
 		B75DE8DD2306932600007683 /* Develop-debug */ = {
 			isa = PBXGroup;
 			children = (
+				0402E0462310007000379E80 /* BLStopwatch */,
 				B75DE8F42306C5F700007683 /* MDDebugManager */,
 			);
 			name = "Develop-debug";
@@ -245,10 +263,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0402E04B2310007000379E80 /* BLStopwatch.m in Sources */,
 				B75DE8FD2306C5F700007683 /* YYFPSLabel.m in Sources */,
 				B75DE8FB2306C5F700007683 /* MDTextPickerView.m in Sources */,
 				B75DE8CC230692C900007683 /* ViewController.m in Sources */,
 				B75DE8D7230692CB00007683 /* main.m in Sources */,
+				0402E04C2310007000379E80 /* BLStopwatchManager.m in Sources */,
 				B75DE8FC2306C5F700007683 /* MDDebugManager.m in Sources */,
 				B75DE8C9230692C900007683 /* AppDelegate.m in Sources */,
 			);

@@ -13,7 +13,7 @@ DEPENDENCIES:
   - YYKit-used
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - FBAllocationTracker
     - FBMemoryProfiler
     - FBRetainCycleDetector
@@ -29,4 +29,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: f43196576ab28a0805bf09458fa85b47d0205541
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.8.0.beta.1

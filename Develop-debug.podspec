@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Develop-debug'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'debug模式的依赖'
 
  
@@ -16,9 +16,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Develop-debug/MDDebugManager/*.{h,m}'
+  s.source_files = 'Develop-debug/MDDebugManager/*.{h,m}', 'Develop-debug/BLStopwatch/*.{h,m}'
 
   s.dependency 'YYKit-used'
   s.dependency 'FBMemoryProfiler'
   s.dependency 'OCMock'
+
 end
